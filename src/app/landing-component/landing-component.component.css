@@ -1,0 +1,55 @@
+.landing-page{
+    background-color:#0f0f0f;
+}
+
+.landing-1{
+    padding: 10px;
+    margin-top: 200px;
+}
+
+.Landing-image{
+    margin-top: 175px;
+    width: 100%;
+}
+
+.Heading-text{
+    color: #6abe52;
+    font-size: 50px;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 600;
+}
+
+.sub-heading-text{
+    font-family: "League Spartan", sans-serif;
+    color: white;
+    font-size:30px;
+    margin-top: 20px;
+}
+
+.landing-text{
+    font-family: "League Spartan", sans-serif;
+    color: white;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.green-text{
+    color: #6abe52;
+}
+
+.Readmore-btn{
+    background-color: #6abe52;
+    border: none;
+    margin-top: 36px;
+    width: 23%;
+    height: 7%;
+    color: white;
+    font-family: "League Spartan", sans-serif;
+    font-size: 20px;
+
+}
+
+.Readmore-btn:hover{
+    background-color: #f0f0f0;
+    color: #6abe52;
+}

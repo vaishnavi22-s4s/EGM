@@ -1,0 +1,21 @@
+<div class="container-fluid landing-page">
+    <div class="container">
+        <div class="row">
+            <div class="heading">
+                Leadership Team
+            </div>
+                        
+            <div class="approach-card-align" *ngFor=" let cards of teamcard">
+                <div class="approach-card"  >
+                    <img src="{{cards.imageurl}}" alt="" class="card-image">
+                    <div class="card-heading">{{cards.heading}}</div>
+                    <div class="sub-card-heading">{{cards.subheading}}</div>
+                    <div class="team-text">
+                       {{cards.text}}
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
