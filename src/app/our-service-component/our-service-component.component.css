@@ -65,3 +65,78 @@ mat-accordion {
     margin-bottom: 6px;
 
 }
+
+
+@media only screen and (max-width:600px) {
+
+
+
+  mat-accordion {
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+  }
+  
+  mat-expansion-panel {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #eff3f5; 
+  overflow: hidden;
+  }
+
+  mat-expansion-panel-header {
+    font-weight: bold;
+    padding: 1px;
+    border-radius: 10px 10px 0 0;
+    color: #5a981b;
+  }
+  
+  
+  mat-expansion-panel .mat-expansion-panel-content {
+    padding: 15px;
+    background-color: #4ccf0f; 
+    border-radius: 0 0 10px 10px; 
+  }
+
+.opening{
+   
+    background-color: #e7fcc7;
+    width: 100%;
+    height: 100%
+}
+
+
+
+  .landing{
+    padding: 10px;
+    width: 100%;
+    justify-items: center;
+    height: 100%;
+    display: flex;
+    font-size: 18px;
+    font-family: "League Spartan", sans-serif;
+    
+  }
+
+  .heading{
+    font-family: "League Spartan", sans-serif;
+    font-size: 30px;
+    color: #008000;
+    font-weight: 600;
+    text-align: center;
+    margin-top:60px;
+    margin-bottom: 37px;
+}
+
+.acc-img{
+    width: 10%;
+    margin-left: 13px;
+    margin-bottom: 6px;
+
+}
+
+
+
+}
