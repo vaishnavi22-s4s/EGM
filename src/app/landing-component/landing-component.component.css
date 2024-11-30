@@ -1,3 +1,5 @@
+@media only screen and (min-width:1200px){
+
 .landing-page{
     background-color:#0f0f0f;
 }
@@ -52,4 +54,115 @@
 .Readmore-btn:hover{
     background-color: #f0f0f0;
     color: #6abe52;
+}
+}
+@media only screen and (min-width:600px) and (max-width:1999){
+    .landing-page{
+        background-color:#0f0f0f;
+    }
+    
+    .landing-1{
+        padding: 10px;
+        margin-top: 200px;
+    }
+    
+    .Landing-image{
+        margin-top: 175px;
+        width: 100%;
+    }
+    
+    .Heading-text{
+        color: #6abe52;
+        font-size: 50px;
+        font-family: "League Spartan", sans-serif;
+        font-weight: 600;
+    }
+    
+    .sub-heading-text{
+        font-family: "League Spartan", sans-serif;
+        color: white;
+        font-size:30px;
+        margin-top: 20px;
+    }
+    
+    .landing-text{
+        font-family: "League Spartan", sans-serif;
+        color: white;
+        font-size: 25px;
+        margin-top: 40px;
+    }
+    
+    .green-text{
+        color: #6abe52;
+    }
+    
+    .Readmore-btn{
+        background-color: #6abe52;
+        border: none;
+        margin-top: 36px;
+        width: 23%;
+        height: 7%;
+        color: white;
+        font-family: "League Spartan", sans-serif;
+        font-size: 20px;
+    
+    }
+    
+    .Readmore-btn:hover{
+        background-color: #f0f0f0;
+        color: #6abe52;
+    }
+
+}
+
+@media only screen and (max-width:599px)
+{
+    .landing-page{
+        background-color:#0f0f0f;
+    }
+    .Landing-image{
+        display:none;
+    }
+    .landing-1{
+        text-align: center;
+    }
+    .Heading-text{
+        color: #6abe52;
+        font-size: 35px;
+        font-family: "League Spartan", sans-serif;
+        font-weight: 600;
+    }
+    .sub-heading-text{
+        font-family: "League Spartan", sans-serif;
+        color: white;
+        font-size: 23px;
+        margin-top: 20px;
+    }
+    .landing-text{
+        font-family: "League Spartan", sans-serif;
+        color: white;
+        font-size: 21px;
+        margin-top: 27px;
+    }
+    .Readmore-btn{
+        background-color: #6abe52;
+        border: none;
+        margin-top: 32px;
+        width: 32%;
+        height: 7%;
+        color: white;
+        font-family: "League Spartan", sans-serif;
+        font-size: 16px;
+        margin-bottom: 20px;
+    
+    }
+    .landing-1{
+        padding: 10px;
+        margin-top: 150px;
+    }
+    .Readmore-btn:hover{
+        background-color: #f0f0f0;
+        color: #6abe52;
+    }
+
 }

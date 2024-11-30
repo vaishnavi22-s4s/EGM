@@ -1,4 +1,120 @@
-.landing-page{
+@media only screen and (min-width:1200px){
+.mdview{
+  display: none;
+}
+
+
+  .landing-page{
+    background-color: #eff3f5;
+    padding-bottom: 40px;  
+}
+
+.heading{
+    font-family: "League Spartan", sans-serif;
+    font-size: 40px;
+    color: #008000;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.subheading{
+  font-family: "League Spartan", sans-serif;
+  font-size: 27px;
+  margin-top: 30px;
+  color: #5a981b;
+  font-weight: 600;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+
+
+
+.approach-card-align{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap:20px;
+   
+}
+
+
+.approach-card{
+  width: calc(33.333% - 20px);
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ 
+}
+
+.approach-img{
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.approach-img:hover{
+  width: 100%;
+  border-radius: 20px;
+  padding: 1px;
+}
+
+.card-heading{
+  font-family: "League Spartan", sans-serif;
+  font-size: 27px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.bullet-img{
+  width: 6%;
+  padding: 1px;
+  }
+
+  .bullet-list {
+    list-style-type: none; 
+    padding-left: 0; 
+  }
+
+  .bullet-item {
+    position: relative; 
+    padding-left: 30px; 
+    font-size: 20px;
+    font-family: "League Spartan", sans-serif;
+    text-align: justify;
+    margin-top: 10px;
+  }
+
+  .bullet-item::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 18px;
+    height: 18px; 
+    background-image: url('../../../public/auto.svg');
+    background-size: cover;
+  }
+
+}
+
+@media only screen and (min-width:600px) and (max-width:1999px){
+  .mdview{
+    display: none;
+  }
+  
+  .landing-page{
     background-color: #eff3f5;
     padding-bottom: 40px;
    
@@ -102,3 +218,141 @@
     background-image: url('../../../public/auto.svg');
     background-size: cover;
   }
+
+  .img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    }
+}
+@media only screen and (max-width:599px){
+  .dtview{
+    display: none;
+  }
+  .landing-page{
+    background-color: #eff3f5;
+    padding-bottom: 40px;
+   
+   
+    
+}
+.total{
+  margin-top: 20px;
+  background-color: #eff3f5;
+}
+.heading{
+    font-family: "League Spartan", sans-serif;
+    font-size: 35px;
+      color: #008000;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.subheading{
+  font-family: "League Spartan", sans-serif;
+  font-size: 25px;
+  margin-top: 30px;
+  color: #5a981b;
+  font-weight: 600;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+
+
+
+.approach-card-align{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap:20px;
+   
+}
+
+.approach-card{
+        width: 100%;
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 15px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-bottom: 30px;
+}
+
+.img{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+}
+
+.approach-img{
+  width: 55%;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.approach-img:hover{
+  width: 100%;
+  border-radius: 20px;
+  padding: 1px;
+}
+
+.card-heading{
+  font-family: "League Spartan", sans-serif;
+  font-size: 27px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.bullet-img{
+  width: 6%;
+  padding: 1px;
+  }
+
+  .bullet-list {
+    list-style-type: none; 
+    padding-left: 0; 
+  }
+
+  .bullet-item {
+    position: relative; 
+    padding-left: 30px; 
+    font-size: 20px;
+    font-family: "League Spartan", sans-serif;
+    text-align: justify;
+    margin-top: 10px;
+  }
+
+  .bullet-item::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 18px;
+    height: 18px; 
+    background-image: url('../../../public/auto.svg');
+    background-size: cover;
+  }
+  .com-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .slide-align{
+    width: 93%;
+  }
+  
+}
+
+
